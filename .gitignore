@@ -1,0 +1,5 @@
+*.pdf
+lol*.txt
+*.docx
+
+env/
