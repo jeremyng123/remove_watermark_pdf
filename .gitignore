@@ -1,5 +1,6 @@
 *.pdf
 lol*.txt
 *.docx
+exp*.txt
 
 env/
