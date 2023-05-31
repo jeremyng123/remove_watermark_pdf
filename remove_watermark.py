@@ -2,9 +2,9 @@ import sys
 import fitz
 
 # https://github.com/pymupdf/PyMuPDF/discussions/1855
-word = sys.argv[1]  # search string
-input_filname = sys.argv[2]
-output_filename = sys.argv[3]
+# word = sys.argv[1]  # search string
+input_filname = sys.argv[1]
+output_filename = sys.argv[2]
 doc = fitz.open(input_filname)
 assert isinstance(doc, fitz.Document)
 for page in doc:
