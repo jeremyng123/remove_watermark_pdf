@@ -4,3 +4,6 @@ lol*.txt
 exp*.txt
 
 env/
+pymupdf/
+poppler-0.68.0/
+pdf-redactor/
